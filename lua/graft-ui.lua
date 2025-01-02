@@ -150,7 +150,7 @@ end
 -- Create the info command
 function M.setup()
 	-- Register ourselves with graft
-	graft.register("tlj/graft-ui.nvim", { type = "now" })
+	graft.register("tlj/graft-ui.nvim", { type = "start" })
 
 	vim.api.nvim_create_user_command("GraftInfo", function()
 		display_info()
