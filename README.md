@@ -1,5 +1,8 @@
 # graft-ui.nvim
 
+> [!WARNING]
+> graft-ui.nvim has been included in core. This is now deprecated.
+
 An extension to [graft.nvim](https://github.com/tlj/graft.nvim) to add a simple UI to show the status of the plugins loaded
 by `graft.nvim`.
 
